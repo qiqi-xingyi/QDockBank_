@@ -103,6 +103,7 @@ If you use **QDockBank** in your research, please cite:
   journal={arXiv preprint arXiv:2508.00837},
   year={2025}
 }
+```
 
 ---
 
