@@ -48,14 +48,17 @@
 
 ```
 QDockBank/
-├─ index.csv
-├─ quantum_metadata/
-│    ├─ 1xyz/
-│    │    ├─ 1xyz_metadata.json
-│    │    ├─ 1xyz.pdb
-│    │    └─ 1xyz_RMSD_docking_result.json
-│    └─ …
-└─ quantum_docking_result/  (raw docking logs & outputs)
+├─ 1e2k/
+│   ├─ 1e2k.pdb
+│   ├─ 1e2k_metadata.json
+│   └─ 1e2k_RMSD_docking_result.json
+├─ 1e2l/
+│   ├─ 1e2l.pdb
+│   ├─ 1e2l_metadata.json
+│   └─ 1e2l_RMSD_docking_result.json
+├─ 1gx8/
+├─ 1hdq/
+...
 ```
 
 > Each fragment folder (`{pdb_id}`) contains:
@@ -86,4 +89,25 @@ QDockBank/
 ---
 
 For questions or issues, please open an issue in the project repository.
+
+---
+
+## 📖 Citation
+
+If you use **QDockBank** in your research, please cite:
+
+```bibtex
+@article{zhang2025qdockbank,
+  title={QDockBank: A Dataset for Ligand Docking on Protein Fragments Predicted on Utility-Level Quantum Computers},
+  author={Zhang, Yuqi and Yang, Yuxin and Lu, Cheng-Chang and Jiang, Weiwen and Cheng, Feixiong and Fang, Bo and Guan, Qiang},
+  journal={arXiv preprint arXiv:2508.00837},
+  year={2025}
+}
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
 
