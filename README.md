@@ -30,7 +30,7 @@
    Per‐fragment JSON files (`{pdb_id}_RMSD_docking_result.json`) containing:
 
    - `rmsd`: root‐mean‐square deviation vs. experimental structure
-   - `rmsd_method` / `rmsd_tool`
+   - `rmsd_tool`
    - **docking**:
      - `average_affinity` (top‐pose average across 20 runs)
      - `runs`: list of 20 objects, each with:
@@ -39,8 +39,9 @@
        - `average`: affinity & RMSD bounds
        - `modes`: 9 binding modes (`affinity`, `rmsd_l_b`, `rmsd_u_b`)
 
-4. **Index File**\
-   `index.csv` or `index.json` summarizing all fragments: group (L/M/S), sequence, length, residue range.
+[//]: # (4. **Index File**\)
+
+[//]: # (   `index.csv` or `index.json` summarizing all fragments: group &#40;L/M/S&#41;, sequence, length, residue range.)
 
 ---
 
