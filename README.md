@@ -39,7 +39,7 @@
        - `average`: affinity & RMSD bounds
        - `modes`: 9 binding modes (`affinity`, `rmsd_l_b`, `rmsd_u_b`)
 
-4. **Index File**\
+4. **Index File**
 
    - `index.txt` summarizing all fragments: group (L/M/S), sequence, length, residue range.
 
