@@ -41,7 +41,7 @@
 
 4. **Index File**\
 
-   `index.txt` summarizing all fragments: group (L/M/S), sequence, length, residue range.
+   - `index.txt` summarizing all fragments: group (L/M/S), sequence, length, residue range.
 
 ---
 
