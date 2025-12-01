@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="QDockBank.jpg" alt="QDockBank Cover" width="100%">
+</div>
+
 # QDockBank Dataset
 
 **QDockBank** is a benchmark dataset of protein fragment structures predicted using utility‐level quantum computers, specifically designed for protein–ligand docking tasks. This README provides an overview of the dataset’s contents, directory structure, and usage instructions.
