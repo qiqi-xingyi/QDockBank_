@@ -98,10 +98,11 @@ For questions or issues, please open an issue in the project repository.
 If you use **QDockBank** in your research, please cite:
 
 ```bibtex
-@article{zhang2025qdockbank,
-  title={QDockBank: A Dataset for Ligand Docking on Protein Fragments Predicted on Utility-Level Quantum Computers},
+@inproceedings{zhang2025qdockbank,
+  title={QDockBank: A dataset for Ligand Docking on Protein Fragments Predicted on Utility-Level Quantum Computers},
   author={Zhang, Yuqi and Yang, Yuxin and Lu, Cheng-Chang and Jiang, Weiwen and Cheng, Feixiong and Fang, Bo and Guan, Qiang},
-  journal={arXiv preprint arXiv:2508.00837},
+  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages={746--761},
   year={2025}
 }
 ```
